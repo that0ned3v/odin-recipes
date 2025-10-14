@@ -1,0 +1,1 @@
+i am a 13 year old learning web development i am currently learning html and bash basics i am using the odin progect to learn  i plan to start a web dwevelopment company when im older and i feel i have beeen making great progress learning
