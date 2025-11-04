@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(143, 27, 27);
+}
+
+
+
+#ttle {
+    
+    font-size: 60px;
+    background-color: #000000;
+    color: white;
+    border-radius: 40px;
+    box-sizing: border-box;
+    padding: 20px;
+    width: 400px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#list {
+    font-size: 30px;
+    background-color: #ffffff;
+    border-radius: 50px;
+    margin: auto;
+    width: 800px;
+    height: 800px;
+    text-align: center;
+    list-style-position: inside;
+
+}
+
+ item {
+    margin-bottom: 30px;
+}
