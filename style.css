@@ -25,12 +25,15 @@ body {
     border-radius: 50px;
     margin: auto;
     width: 800px;
-    height: 800px;
+    height: 250px;
     text-align: center;
     list-style-position: inside;
 
 }
 
- item {
-    margin-bottom: 30px;
+.item1, .item2, .item3 {
+    margin-bottom: 50px;
+    color: black;
+    font-weight: bold;
+
 }
