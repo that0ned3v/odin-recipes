@@ -16,7 +16,7 @@ body {
     padding: 20px;
     width: 400px;
     margin: auto;
-    margin-bottom: 20px;
+    margin-bottom: 200px;
 }
 
 #list {
@@ -28,13 +28,19 @@ body {
     height: 250px;
     text-align: center;
     list-style-position: inside;
-    text-decoration: none;
+    
 
 }
 
 .item1, .item2, .item3 {
     margin-bottom: 50px;
-    color: black;
+    color: rgb(0, 0, 0);
     font-weight: bold;
+    text-decoration: none;
 
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
 }

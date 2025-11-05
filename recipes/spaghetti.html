@@ -17,8 +17,8 @@
 
     </p>
     <h2>Ingredients</h2>
-    <ul>
-        <li>six spaghetti noddles</li>
+    <ul class="list">
+        <li class="item">six spaghetti noddles</li>
         <li>one meatbal</li>
         <li>some black eyed peas</li>
         <li>a few raisins</li>
@@ -42,7 +42,20 @@
 
 
     </ol>
-    <a href="../index.html">Home</a>
+        <a href="../index.html">Home</a>
+
+        <script>
+            // Add incremental classes per list: item-1, item-2 within each list
+            document.querySelectorAll('ul, ol').forEach((list) => {
+                list.querySelectorAll('li').forEach((li, idx) => {
+                    li.classList.add(`item-${idx+1}`);
+                });
+            });
+
+            // If you prefer a global increment across the whole page (1..N),
+            // uncomment the line below instead of the per-list logic above:
+            // document.querySelectorAll('li').forEach((li, i) => li.classList.add(`item-${i+1}`));
+        </script>
 
 </body>
 </html>
